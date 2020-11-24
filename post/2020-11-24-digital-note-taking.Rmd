@@ -1,0 +1,41 @@
+---
+title: "Digital note-taking"
+author: "Julia Romanowska"
+date: 2020-11-24T12:13:14+01:00
+categories: ["notes"]
+tags: ["software", "planning", "keeping-track"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+    To think, you have to write.
+    If you’re thinking without writing,
+    you only think you’re thinking
+        — Leslie Lamport, Thinking for Programmers
+
+## Note-taking
+
+Important to take notes, both via hand-writing, but also digital notes.
+
+Advantages of digital notes:
+
+- searchable
+- ease of planning
+- facilitates writing manuscripts
+- keeping track of trials *- mistakes and failures are as important as successes!*
+
+## Organization
+
+Organize your thoughts, links, workflows, etc. Make it easier for others to
+understand your thoughts, but also for yourself, when looking at that piece of
+research after e.g., 5 years.
+
+## Links
+
+- **Dynalist** https://dynalist.io
+- **Evernote**
+- **OneNote** (Microsoft)
+- **RedNotebook** https://rednotebook.sourceforge.net/
+

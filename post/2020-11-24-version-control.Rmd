@@ -1,0 +1,111 @@
+---
+title: "Version control"
+author: "Julia Romanowska"
+date: 2020-11-24T13:13:14+01:00
+categories: ["git"]
+tags: ["software", "github", "keeping-track", "history"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+![](/Reproducible_research_workshop_DRONE/images/phdcomic_filename_history.png)
+
+*src: http://phdcomics.com/comics/archive.php?comicid=1323*
+
+## Too many versions?
+
+We produce very many files, scripts, notes, code, data, outputs, drafts, reports, you-name-it...
+It's important to have a clear strategy for how to maintain order in those
+and how to track changes or versions - either made by us or others.
+
+## Take control!
+
+Here are some tips
+
+### Directories
+
+In the directories that you know will be useful for others (or even for yourself,
+after the project is finished) keep and maintain a `README` file.
+
+```
+This directory contains very important analyses and data.
+
+|-- input_data:
+|     here are all the raw inputs
+|
+|-- input_cleaned:
+|     the data from 'input_data', but ready for analyses
+|     (here are also scripts that were used for cleaning)
+|
+|-- analysis_
+```
+
+> DO NOT use names such as "analysis1", "data2" - these do not give any meaning to anyone apart from yourself and that only during the time you're doing "analysis1"
+
+### Naming strategy
+
+- be consistent!
+- be descriptive!
+- use uderscore (`_`) instead of spaces
+- avoid strange characters (`« / :?*> [ ] & $`)
+- write dates as YYY-MM-DD
+
+### Version control
+
+[Git](https://git-scm.com/) is a decentralized version control system, which
+means that each of the copies (`clones`) of the repository are version controlled
+separately and can be merged upon request. Thanks to that, the repository doesn't
+have to be online and each clone can "live" on its own, without even contacting
+the "mother-repository".
+
+When learning version control, there are some vocabulary that one needs to 
+understand:
+
+|  _command_     |  _meaning_                    |
+|----------------|-------------------------------|
+| `clone`        | copy the entire repo, together with its version history  |
+| `branch`es     | separate histories of files, co-existing within one repo |
+| `stage`        | each new/changed file needs to be staged so that git can track the changes  |
+| `commit`       | staged files are gathered in one commit and a __meaningful__ commit message describes the changes  |
+| `push`         | all the commits are stored locally and need to be pushed to the server, if one wants to share them |
+| `pull`         | copy the changes from the repo on the server  |
+
+> Here, also pay attention to the commit messages!
+> Below is an example of how __not to__ write them:
+
+![](/Reproducible_research_workshop_DRONE/images/wrong_commit_messages.jpeg)
+
+### What to version control?
+
+It's useful to include in the repo __text files__, i.e.,
+
+- code
+- scripts / syntax
+- notes
+- text output
+- text results
+
+These files can be easily checked for differences and thus only the changes (`diff`)
+are saved in the history, which makes the information stored much smaller.
+All the __binary files__ need to be re-written each time they're changed, thus
+taking lots of space in the git history storage. Therefore, be careful when
+including these files:
+
+- images
+- pdf
+- Word files, Excel files (apart from .csv)
+- any other files that cannot be opened with Notebook
+
+### Examples
+
+When working with git everyday, you will find doing the following workflow
+many many times:
+
+1. work with files
+2. stage the changed files
+3. commit and give a description of the changes
+4. (push if you're working outside of SAFE)
+
+For practical information, check [the next post!](../2020-11-24-git-and-github.html)
