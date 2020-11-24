@@ -3,58 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/categories/</loc>
+    <loc>/Reproducible_research_workshop_DRONE/pt/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/categories/"
+                href="/Reproducible_research_workshop_DRONE/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/categories/"
+                href="/Reproducible_research_workshop_DRONE/pt/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/</loc>
+    <loc>/Reproducible_research_workshop_DRONE/pt/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/"
+                href="/Reproducible_research_workshop_DRONE/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/"
+                href="/Reproducible_research_workshop_DRONE/pt/"
                 />
   </url>
   
   <url>
-    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/series/</loc>
+    <loc>/Reproducible_research_workshop_DRONE/pt/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/series/"
+                href="/Reproducible_research_workshop_DRONE/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/series/"
+                href="/Reproducible_research_workshop_DRONE/pt/series/"
                 />
   </url>
   
   <url>
-    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/tags/</loc>
+    <loc>/Reproducible_research_workshop_DRONE/pt/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/"
+                href="/Reproducible_research_workshop_DRONE/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/tags/"
+                href="/Reproducible_research_workshop_DRONE/pt/tags/"
                 />
   </url>
   

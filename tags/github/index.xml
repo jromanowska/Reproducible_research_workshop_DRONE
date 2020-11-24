@@ -2,29 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>github on Clarity</title>
-    <link>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/github/</link>
+    <link>/Reproducible_research_workshop_DRONE/tags/github/</link>
     <description>Recent content in github on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020, Julia Romanowska.</copyright>
     <lastBuildDate>Tue, 24 Nov 2020 15:13:14 +0100</lastBuildDate>
     
-	<atom:link href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/github/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/Reproducible_research_workshop_DRONE/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git and github</title>
-      <link>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/</link>
+      <link>/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/</link>
       <pubDate>Tue, 24 Nov 2020 15:13:14 +0100</pubDate>
       
-      <guid>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/</guid>
-      <description> Git software  </description>
+      <guid>/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/</guid>
+      <description>Git and GitHub are connected, but these are not the same. Let’s see what’s the difference.
+Git software Git software can be downloaded for all OS types. Moreover, there are many software pieces that give you git access, e.g.,
+ Sourcetree Github desktop Rstudio   YES, you read correctly: you can use git without closing RStudio
+ Git in RStudio  NOTE: To use this feature, you need to have Git installed in your system!</description>
     </item>
     
     <item>
       <title>Version control</title>
-      <link>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-version-control/</link>
+      <link>/Reproducible_research_workshop_DRONE/post/2020-11-24-version-control/</link>
       <pubDate>Tue, 24 Nov 2020 13:13:14 +0100</pubDate>
       
-      <guid>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-version-control/</guid>
+      <guid>/Reproducible_research_workshop_DRONE/post/2020-11-24-version-control/</guid>
       <description>src: http://phdcomics.com/comics/archive.php?comicid=1323
 Too many versions? We produce very many files, scripts, notes, code, data, outputs, drafts, reports, you-name-it… It’s important to have a clear strategy for how to maintain order in those and how to track changes or versions - either made by us or others.
  Take control! Here are some tips

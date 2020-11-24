@@ -18,33 +18,35 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content=" Git software  ">
+<meta name="description" content="Git and GitHub are connected, but these are not the same. Let’s see what’s the difference.
+Git software Git software can be downloaded for all OS types. …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="Git and github" />
-<meta property="og:url" content="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/" />
+<meta property="og:url" content="/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/" />
 <meta property="og:title" content="Git and github" />
-<meta property="og:description" content=" Git software  " />
-<meta property="og:image" content="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/images/thumbnail.png" />
-<link rel="apple-touch-icon" sizes="180x180" href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/logos/search-solid.png'>
-<link rel="icon" type="image/png" sizes="32x32" href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/logos/search-solid_32x32.png'>
-<link rel="manifest" href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/icons/site.webmanifest'>
-<link rel="mask-icon" href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/safari-pinned-tab.svg' color="#002538">
+<meta property="og:description" content="Git and GitHub are connected, but these are not the same. Let’s see what’s the difference.
+Git software Git software can be downloaded for all OS types. …" />
+<meta property="og:image" content="/Reproducible_research_workshop_DRONE/images/thumbnail.png" />
+<link rel="apple-touch-icon" sizes="180x180" href='/Reproducible_research_workshop_DRONE/logos/search-solid.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='/Reproducible_research_workshop_DRONE/logos/search-solid_32x32.png'>
+<link rel="manifest" href='/Reproducible_research_workshop_DRONE/icons/site.webmanifest'>
+<link rel="mask-icon" href='/Reproducible_research_workshop_DRONE/safari-pinned-tab.svg' color="#002538">
 <meta name="msapplication-TileColor" content="#002538">
 <meta name="theme-color" content="#002538">
 
-<link rel="canonical" href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/">
+<link rel="canonical" href="/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/">
 
     
 
     
     
-    <link rel="preload" href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/css/styles.17bd8db1e1e9d3fde7e52431779c901a12c654a66914bb4472fd4b0c6880c72ea87f9dc818f7ca35bf2e934c65a6a7d6c7afa12a18e60a79ff4e093e3ac621ba.css" integrity = "sha512-F72NseHp0/3n5SQxd5yQGhLGVKZpFLtEcv1LDGiAxy6of53IGPfKNb8uk0xlpqfWx6&#43;hKhjmCnn/Tgk&#43;OsYhug==" as="style" crossorigin="anonymous">
-    <link rel="preload" href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/js/bundle.min.9c7cb1be93a668248cdb667b0b25a3067987cc0d3aae0431ab7d7d7d2a9c51a5de0b66d7e2fff27aa07f3a55c2daf7088cc2214460787fb5ac79aa288d2aa1fa.js" as="script" integrity=
-    "sha512-nHyxvpOmaCSM22Z7CyWjBnmHzA06rgQxq319fSqcUaXeC2bX4v/yeqB/OlXC2vcIjMIhRGB4f7WseaoojSqh&#43;g==" crossorigin="anonymous">
+    <link rel="preload" href="/Reproducible_research_workshop_DRONE/css/styles.17bd8db1e1e9d3fde7e52431779c901a12c654a66914bb4472fd4b0c6880c72ea87f9dc818f7ca35bf2e934c65a6a7d6c7afa12a18e60a79ff4e093e3ac621ba.css" integrity = "sha512-F72NseHp0/3n5SQxd5yQGhLGVKZpFLtEcv1LDGiAxy6of53IGPfKNb8uk0xlpqfWx6&#43;hKhjmCnn/Tgk&#43;OsYhug==" as="style" crossorigin="anonymous">
+    <link rel="preload" href="/Reproducible_research_workshop_DRONE/js/bundle.min.16c4e91f5d0a92342a80ad8c03c3a9af12a1f361fb45d4f98eb79b7d1110513b20e8cce6fd5cafc96bd9deca33ff1acefe457ef9a1412ba497aaeaa04c495632.js" as="script" integrity=
+    "sha512-FsTpH10KkjQqgK2MA8OprxKh82H7RdT5jrebfREQUTsg6Mzm/VyvyWvZ3soz/xrO/kV&#43;&#43;aFBK6SXquqgTElWMg==" crossorigin="anonymous">
 
     
-    <link rel="stylesheet" type="text/css" href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/css/styles.17bd8db1e1e9d3fde7e52431779c901a12c654a66914bb4472fd4b0c6880c72ea87f9dc818f7ca35bf2e934c65a6a7d6c7afa12a18e60a79ff4e093e3ac621ba.css" integrity="sha512-F72NseHp0/3n5SQxd5yQGhLGVKZpFLtEcv1LDGiAxy6of53IGPfKNb8uk0xlpqfWx6&#43;hKhjmCnn/Tgk&#43;OsYhug==" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/Reproducible_research_workshop_DRONE/css/styles.17bd8db1e1e9d3fde7e52431779c901a12c654a66914bb4472fd4b0c6880c72ea87f9dc818f7ca35bf2e934c65a6a7d6c7afa12a18e60a79ff4e093e3ac621ba.css" integrity="sha512-F72NseHp0/3n5SQxd5yQGhLGVKZpFLtEcv1LDGiAxy6of53IGPfKNb8uk0xlpqfWx6&#43;hKhjmCnn/Tgk&#43;OsYhug==" crossorigin="anonymous">
     
   </head>
   
@@ -55,8 +57,8 @@
 
 <header class="nav_header" >
   <nav class="nav">
-    <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/' class="nav_brand nav_item">
-      <img src="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/logos/search-solid.png" class="logo">
+    <a href='/Reproducible_research_workshop_DRONE/' class="nav_brand nav_item">
+      <img src="/Reproducible_research_workshop_DRONE/logos/search-solid.png" class="logo">
       <div class="nav_close">
         <div>
           <svg class="icon">
@@ -75,10 +77,10 @@
         
 
   <div class="nav_parent">
-    <a href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/" class="nav_item">Home </a>
+    <a href="/Reproducible_research_workshop_DRONE/" class="nav_item">Home </a>
   </div>
   <div class="nav_parent">
-    <a href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/about/" class="nav_item">About </a>
+    <a href="/Reproducible_research_workshop_DRONE/about/" class="nav_item">About </a>
   </div>
       
       <div class="nav_parent">
@@ -86,9 +88,9 @@
         <div class="nav_sub">
           <span class="nav_child"></span>
           
-          <a href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/" class="nav_child nav_item">English</a>
+          <a href="/Reproducible_research_workshop_DRONE/" class="nav_child nav_item">English</a>
           
-          <a href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/" class="nav_child nav_item"></a>
+          <a href="/Reproducible_research_workshop_DRONE/pt/" class="nav_child nav_item"></a>
           
         </div>
       </div>
@@ -119,25 +121,25 @@
 </svg>
   <span class="post_date">
     Nov 24, 2020</span>
-    <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/software' class="post_tag button button_translucent">software
+    <a href='/Reproducible_research_workshop_DRONE/tags/software' class="post_tag button button_translucent">software
     </a>
-    <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/github' class="post_tag button button_translucent">github
+    <a href='/Reproducible_research_workshop_DRONE/tags/github' class="post_tag button button_translucent">github
     </a>
-    <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/keeping-track' class="post_tag button button_translucent">keeping-track
+    <a href='/Reproducible_research_workshop_DRONE/tags/keeping-track' class="post_tag button button_translucent">keeping-track
     </a>
-    <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/history' class="post_tag button button_translucent">history
+    <a href='/Reproducible_research_workshop_DRONE/tags/history' class="post_tag button button_translucent">history
     </a>
 </div>
 
     
 <div class="post_share">
   Share on:
-  <a href="https://twitter.com/intent/tweet?text=Git%20and%20github&url=https%3a%2f%2fjromanowska.github.io%2fReproducible_research_workshop_DRONE%2fpost%2f2020-11-24-git-and-github%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+  <a href="https://twitter.com/intent/tweet?text=Git%20and%20github&url=%2fReproducible_research_workshop_DRONE%2fpost%2f2020-11-24-git-and-github%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
     <svg class="icon">
   <use xlink:href="#twitter"></use>
 </svg>
   </a>
-  <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjromanowska.github.io%2fReproducible_research_workshop_DRONE%2fpost%2f2020-11-24-git-and-github%2f&t=Git%20and%20github" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+  <a href="https://www.facebook.com/sharer.php?u=%2fReproducible_research_workshop_DRONE%2fpost%2f2020-11-24-git-and-github%2f&t=Git%20and%20github" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
     <svg class="icon">
   <use xlink:href="#facebook"></use>
 </svg>
@@ -147,7 +149,7 @@
   <use xlink:href="#linkedin"></use>
 </svg>
   </a>
-  <a href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/" title="Copy Link" class="link link_yank">
+  <a href="/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/" title="Copy Link" class="link link_yank">
     <svg class="icon">
   <use xlink:href="#copy"></use>
 </svg>
@@ -158,8 +160,102 @@
     
 
 
+<p>Git and GitHub are connected, but these are not the same. Let’s see what’s
+the difference.</p>
 <div id="git-software" class="section level2">
 <h2>Git software</h2>
+<p><a href="https://git-scm.com/downloads">Git software</a> can be downloaded for all OS types.
+Moreover, there are many software pieces that give you git access, e.g.,</p>
+<ul>
+<li><a href="https://www.sourcetreeapp.com/">Sourcetree</a></li>
+<li><a href="https://desktop.github.com/">Github desktop</a></li>
+<li><a href="https://rstudio.com/products/rstudio/">Rstudio</a></li>
+</ul>
+<blockquote>
+<p>YES, you read correctly: <strong>you can use git without closing RStudio</strong></p>
+</blockquote>
+<div id="git-in-rstudio" class="section level3">
+<h3>Git in RStudio</h3>
+<blockquote>
+<p><strong>NOTE:</strong> To use this feature, you need to have Git installed in your system!</p>
+</blockquote>
+<p>There are three ways one can turn on git history tracking in RStudio.</p>
+<div id="creating-new-project" class="section level4">
+<h4>Creating new project</h4>
+<p>Click on “New project” and choose “New directory”. Then, mark the option
+<code>"create a git repository"</code></p>
+<p><img src="/Reproducible_research_workshop_DRONE/images/rstudio_new_project.png" /></p>
+</div>
+</div>
+<div id="cloning-a-repository" class="section level3">
+<h3>Cloning a repository</h3>
+<p>Click on “New project” and choose “Version control”</p>
+<p><img src="/Reproducible_research_workshop_DRONE/images/rstudio_new_project_git_clone.png" /></p>
+</div>
+<div id="adding-git-tracking-to-an-existing-project" class="section level3">
+<h3>Adding git tracking to an existing project</h3>
+<p>Click on “Tools” in the menu, and then “Version control” and “Project setup…”.
+In the window, choose “git” from the drop-down menu. You will need to restart
+RStudio.</p>
+<hr />
+<p>And finally, you will get a new tab:</p>
+<p><img src="/Reproducible_research_workshop_DRONE/images/rstudio_git_tab.png" /></p>
+<p>There, you can easily:</p>
+<ul>
+<li>check changes (<code>Diff</code>)</li>
+<li>stage new changes</li>
+<li>create commits (<code>commit</code>)</li>
+<li>check history (<code>History</code>)</li>
+<li>pull and push changes</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="github" class="section level2">
+<h2>GitHub</h2>
+<p><a href="https://github.com/">Github</a> is a web-service that lets you create, manage,
+and share files through a repository system. You need to create an account to
+use it.</p>
+<p>There can be two types of repositories:</p>
+<ul>
+<li>private</li>
+<li>public</li>
+</ul>
+<p>Only the public repositories will be visible to others. Private repositories
+are hidden and only you can manage who can see those and who can have access.</p>
+<p>Github visualizes your git history, lets you navigate to files and subdirectories,
+and integrates various useful services that come handy especially when you’re working
+in a team. It doesn’t have to be programming. Github is used also to store
+documentation, create plans for analyses, maintain workflows, etc.</p>
+<div id="github-features" class="section level3">
+<h3>Github features</h3>
+<p><strong>Issue tracker</strong></p>
+<ul>
+<li>very useful when you want feedback from others or a place to discuss things!</li>
+</ul>
+<p><strong>Wiki</strong></p>
+<ul>
+<li>keep your documentation and notes at hand, right next to the code</li>
+</ul>
+<p><strong>Pull requests</strong></p>
+<ul>
+<li><p>for more advanced use, but still very helpful!</p></li>
+<li><p>let’s say you publish an R package and let people use it</p></li>
+<li><p>someone wants to implement an extra feature in your package</p></li>
+<li><p>instead of asking you to get access to your repository, they would:</p>
+<ul>
+<li>clone the repo</li>
+<li>implement necessary functions</li>
+<li>create a pull request for you to review</li>
+</ul></li>
+<li><p>thus, you can check whether you want to include this extra functionality in your package</p></li>
+<li><p>pull requests are visible as new “issues”, so you can discuss live with the other developers and e.g., ask them to change something before the new features are accepted</p></li>
+</ul>
+<p><strong>Github pages</strong></p>
+<ul>
+<li>you can publish your own webpage, without “dirtying” yourself in HTML or CSS!</li>
+</ul>
+</div>
 </div>
 
     
@@ -172,33 +268,33 @@
     <div>
       Short workshop with tips on reproducible research.
     </div>
-    <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/about/' class="button mt-1" role="button">Read More</a>
+    <a href='/Reproducible_research_workshop_DRONE/about/' class="button mt-1" role="button">Read More</a>
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       <li>
-        <a href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-version-control/" class="nav-link">Version control</a>
+        <a href="/Reproducible_research_workshop_DRONE/post/2020-11-24-version-control/" class="nav-link">Version control</a>
       </li>
       <li>
-        <a href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-digital-note-taking/" class="nav-link">Digital note-taking</a>
+        <a href="/Reproducible_research_workshop_DRONE/post/2020-11-24-digital-note-taking/" class="nav-link">Digital note-taking</a>
       </li>
       <li>
-        <a href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2015-07-23-r-rmarkdown/" class="nav-link">Hello R Markdown</a>
+        <a href="/Reproducible_research_workshop_DRONE/post/2015-07-23-r-rmarkdown/" class="nav-link">Hello R Markdown</a>
       </li>
     </ul>
     <div>
       <h2 class="mt-4 taxonomy" id="categories-section">Categories</h2>
       <nav class="tags_nav">
-        <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/categories/git/' class="post_tag button button_translucent">
+        <a href='/Reproducible_research_workshop_DRONE/categories/git/' class="post_tag button button_translucent">
           GIT
           <span class="button_tally">2</span>
         </a>
         
-        <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/categories/notes/' class="post_tag button button_translucent">
+        <a href='/Reproducible_research_workshop_DRONE/categories/notes/' class="post_tag button button_translucent">
           NOTES
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/categories/r/' class="post_tag button button_translucent">
+        <a href='/Reproducible_research_workshop_DRONE/categories/r/' class="post_tag button button_translucent">
           R
           <span class="button_tally">1</span>
         </a>
@@ -209,47 +305,47 @@
     <div>
       <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
       <nav class="tags_nav">
-        <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/keeping-track/' class="post_tag button button_translucent">
+        <a href='/Reproducible_research_workshop_DRONE/tags/keeping-track/' class="post_tag button button_translucent">
           KEEPING-TRACK
           <span class="button_tally">3</span>
         </a>
         
-        <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/software/' class="post_tag button button_translucent">
+        <a href='/Reproducible_research_workshop_DRONE/tags/software/' class="post_tag button button_translucent">
           SOFTWARE
           <span class="button_tally">3</span>
         </a>
         
-        <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/github/' class="post_tag button button_translucent">
+        <a href='/Reproducible_research_workshop_DRONE/tags/github/' class="post_tag button button_translucent">
           GITHUB
           <span class="button_tally">2</span>
         </a>
         
-        <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/history/' class="post_tag button button_translucent">
+        <a href='/Reproducible_research_workshop_DRONE/tags/history/' class="post_tag button button_translucent">
           HISTORY
           <span class="button_tally">2</span>
         </a>
         
-        <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/index/' class="post_tag button button_translucent">
+        <a href='/Reproducible_research_workshop_DRONE/tags/index/' class="post_tag button button_translucent">
           INDEX
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/planning/' class="post_tag button button_translucent">
+        <a href='/Reproducible_research_workshop_DRONE/tags/planning/' class="post_tag button button_translucent">
           PLANNING
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/plot/' class="post_tag button button_translucent">
+        <a href='/Reproducible_research_workshop_DRONE/tags/plot/' class="post_tag button button_translucent">
           PLOT
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/r-markdown/' class="post_tag button button_translucent">
+        <a href='/Reproducible_research_workshop_DRONE/tags/r-markdown/' class="post_tag button button_translucent">
           R-MARKDOWN
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/regression/' class="post_tag button button_translucent">
+        <a href='/Reproducible_research_workshop_DRONE/tags/regression/' class="post_tag button button_translucent">
           REGRESSION
           <span class="button_tally">1</span>
         </a>
@@ -313,8 +409,8 @@
 
 <footer class="footer">
   <div class="footer_inner wrap pale">
-    <img src='https://jromanowska.github.io/Reproducible_research_workshop_DRONE/logos/search-solid.png' class="icon icon_2 transparent">
-    <p>Copyright &copy;&nbsp;2020&nbsp;-&nbsp;<span class="year">2020</span>&nbsp;CLARITY. All Rights Reserved</p><a class="to_top" href="#documentTop">
+    <img src='/Reproducible_research_workshop_DRONE/logos/search-solid.png' class="icon icon_2 transparent">
+    <p>Copyright &copy;&nbsp;2020&nbsp;-&nbsp;<span class="year">2020</span>&nbsp;CLARITY.</p><a class="to_top" href="#documentTop">
   <svg class="icon">
   <use xlink:href="#arrow"></use>
 </svg>
@@ -322,7 +418,7 @@
 
   </div>
 </footer>
-    <script type="text/javascript" src="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/js/bundle.min.9c7cb1be93a668248cdb667b0b25a3067987cc0d3aae0431ab7d7d7d2a9c51a5de0b66d7e2fff27aa07f3a55c2daf7088cc2214460787fb5ac79aa288d2aa1fa.js" integrity="sha512-nHyxvpOmaCSM22Z7CyWjBnmHzA06rgQxq319fSqcUaXeC2bX4v/yeqB/OlXC2vcIjMIhRGB4f7WseaoojSqh&#43;g==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/Reproducible_research_workshop_DRONE/js/bundle.min.16c4e91f5d0a92342a80ad8c03c3a9af12a1f361fb45d4f98eb79b7d1110513b20e8cce6fd5cafc96bd9deca33ff1acefe457ef9a1412ba497aaeaa04c495632.js" integrity="sha512-FsTpH10KkjQqgK2MA8OprxKh82H7RdT5jrebfREQUTsg6Mzm/VyvyWvZ3soz/xrO/kV&#43;&#43;aFBK6SXquqgTElWMg==" crossorigin="anonymous"></script>
     
   </body>
 </html>

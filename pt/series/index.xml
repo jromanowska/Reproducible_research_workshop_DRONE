@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Reproducible Research Workshop</title>
-    <link>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/series/</link>
+    <link>/Reproducible_research_workshop_DRONE/pt/series/</link>
     <description>Recent content in Series on Reproducible Research Workshop</description>
     <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020, Julia Romanowska.</copyright>
     
-	<atom:link href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/series/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/Reproducible_research_workshop_DRONE/pt/series/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

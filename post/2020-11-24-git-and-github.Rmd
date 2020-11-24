@@ -10,6 +10,104 @@ tags: ["software", "github", "keeping-track", "history"]
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
+Git and GitHub are connected, but these are not the same. Let's see what's
+the difference.
+
 ## Git software
 
+[Git software](https://git-scm.com/downloads) can be downloaded for all OS types.
+Moreover, there are many software pieces that give you git access, e.g.,
 
+- [Sourcetree](https://www.sourcetreeapp.com/)
+- [Github desktop](https://desktop.github.com/)
+- [Rstudio](https://rstudio.com/products/rstudio/)
+
+> YES, you read correctly: **you can use git without closing RStudio**
+
+### Git in RStudio
+
+> **NOTE:** To use this feature, you need to have Git installed in your system!
+
+There are three ways one can turn on git history tracking in RStudio.
+
+#### Creating new project
+
+Click on "New project" and choose "New directory". Then, mark the option
+`"create a git repository"`
+
+![](/Reproducible_research_workshop_DRONE/images/rstudio_new_project.png)
+
+### Cloning a repository
+
+Click on "New project" and choose "Version control"
+
+![](/Reproducible_research_workshop_DRONE/images/rstudio_new_project_git_clone.png)
+
+### Adding git tracking to an existing project
+
+Click on "Tools" in the menu, and then "Version control" and "Project setup...".
+In the window, choose "git" from the drop-down menu. You will need to restart
+RStudio.
+
+----
+
+And finally, you will get a new tab:
+
+![](/Reproducible_research_workshop_DRONE/images/rstudio_git_tab.png)
+
+There, you can easily:
+
+- check changes (`Diff`)
+- stage new changes
+- create commits (`commit`)
+- check history (`History`)
+- pull and push changes
+
+----
+
+## GitHub
+
+[Github](https://github.com/) is a web-service that lets you create, manage,
+and share files through a repository system. You need to create an account to
+use it.
+
+There can be two types of repositories:
+
+- private
+- public
+
+Only the public repositories will be visible to others. Private repositories
+are hidden and only you can manage who can see those and who can have access.
+
+Github visualizes your git history, lets you navigate to files and subdirectories,
+and integrates various useful services that come handy especially when you're working
+in a team. It doesn't have to be programming. Github is used also to store
+documentation, create plans for analyses, maintain workflows, etc.
+
+### Github features
+
+**Issue tracker**
+
+- very useful when you want feedback from others or a place to discuss things!
+
+**Wiki**
+
+- keep your documentation and notes at hand, right next to the code
+
+**Pull requests**
+
+- for more advanced use, but still very helpful!
+- let's say you publish an R package and let people use it
+- someone wants to implement an extra feature in your package
+- instead of asking you to get access to your repository, they would:
+
+    - clone the repo
+    - implement necessary functions
+    - create a pull request for you to review
+
+- thus, you can check whether you want to include this extra functionality in your package
+- pull requests are visible as new "issues", so you can discuss live with the other developers and e.g., ask them to change something before the new features are accepted
+
+**Github pages**
+
+- you can publish your own webpage, without "dirtying" yourself in HTML or CSS!

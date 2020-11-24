@@ -108,4 +108,4 @@ many many times:
 3. commit and give a description of the changes
 4. (push if you're working outside of SAFE)
 
-For practical information, check [the next post!](../2020-11-24-git-and-github.html)
+For practical information, check [the next post!](../2020-11-24-git-and-github/)
