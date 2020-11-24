@@ -3,13 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/about/</loc>
-    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2020-11-24T15:13:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -24,7 +19,7 @@
   
   <url>
     <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/categories/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2020-11-24T15:13:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -38,17 +33,87 @@
   </url>
   
   <url>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/categories/git/</loc>
+    <lastmod>2020-11-24T15:13:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/</loc>
+    <lastmod>2020-11-24T15:13:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/github/</loc>
+    <lastmod>2020-11-24T15:13:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/history/</loc>
+    <lastmod>2020-11-24T15:13:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/keeping-track/</loc>
+    <lastmod>2020-11-24T15:13:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/</loc>
+    <lastmod>2020-11-24T15:13:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/software/</loc>
+    <lastmod>2020-11-24T15:13:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/</loc>
+    <lastmod>2020-11-24T15:13:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-version-control/</loc>
+    <lastmod>2020-11-24T13:13:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-digital-note-taking/</loc>
+    <lastmod>2020-11-24T12:13:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/categories/notes/</loc>
+    <lastmod>2020-11-24T12:13:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/planning/</loc>
+    <lastmod>2020-11-24T12:13:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/about/</loc>
+    <lastmod>2020-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
@@ -65,21 +130,6 @@
   <url>
     <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/"
-                />
   </url>
   
   <url>

@@ -5,11 +5,42 @@
     <link>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/</link>
     <description>Recent content on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2020 15:13:14 +0100</lastBuildDate>
     
 	<atom:link href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git and github</title>
+      <link>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/</link>
+      <pubDate>Tue, 24 Nov 2020 15:13:14 +0100</pubDate>
+      
+      <guid>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/</guid>
+      <description> Git software  </description>
+    </item>
+    
+    <item>
+      <title>Version control</title>
+      <link>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-version-control/</link>
+      <pubDate>Tue, 24 Nov 2020 13:13:14 +0100</pubDate>
+      
+      <guid>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-version-control/</guid>
+      <description>src: http://phdcomics.com/comics/archive.php?comicid=1323
+Too many versions? We produce very many files, scripts, notes, code, data, outputs, drafts, reports, you-name-it… It’s important to have a clear strategy for how to maintain order in those and how to track changes or versions - either made by us or others.
+ Take control! Here are some tips
+Directories In the directories that you know will be useful for others (or even for yourself, after the project is finished) keep and maintain a README file.</description>
+    </item>
+    
+    <item>
+      <title>Digital note-taking</title>
+      <link>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-digital-note-taking/</link>
+      <pubDate>Tue, 24 Nov 2020 12:13:14 +0100</pubDate>
+      
+      <guid>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/post/2020-11-24-digital-note-taking/</guid>
+      <description>To think, you have to write. If you’re thinking without writing, you only think you’re thinking — Leslie Lamport, Thinking for Programmers Note-taking Important to take notes, both via hand-writing, but also digital notes.
+Advantages of digital notes:
+ searchable ease of planning facilitates writing manuscripts keeping track of trials - mistakes and failures are as important as successes!   Organization Organize your thoughts, links, workflows, etc. Make it easier for others to understand your thoughts, but also for yourself, when looking at that piece of research after e.</description>
+    </item>
     
     <item>
       <title>About</title>
