@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
-	   	<loc>/pt/sitemap.xml</loc>
+	   	<loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/en/sitemap.xml</loc>
+		
+	   	<lastmod>2015-07-23T21:13:14-05:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>/en/sitemap.xml</loc>
-		
-	   	<lastmod>2015-07-23T21:13:14-05:00</lastmod>
+	   	<loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/sitemap.xml</loc>
 		
 	</sitemap>
 	

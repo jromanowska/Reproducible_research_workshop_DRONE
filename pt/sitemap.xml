@@ -3,58 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/pt/categories/</loc>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/categories/"
+                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/categories/"
                 />
   </url>
   
   <url>
-    <loc>/pt/</loc>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/"
+                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/"
                 />
   </url>
   
   <url>
-    <loc>/pt/series/</loc>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/series/"
+                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/series/"
+                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/series/"
                 />
   </url>
   
   <url>
-    <loc>/pt/tags/</loc>
+    <loc>https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/tags/"
+                href="https://jromanowska.github.io/Reproducible_research_workshop_DRONE/pt/tags/"
                 />
   </url>
   
