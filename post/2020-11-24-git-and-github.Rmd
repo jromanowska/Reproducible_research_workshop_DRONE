@@ -4,11 +4,16 @@ author: "Julia Romanowska"
 date: 2020-11-24T15:13:14+01:00
 categories: ["git"]
 tags: ["software", "github", "keeping-track", "history"]
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
+
+----
 
 Git and GitHub are connected, but these are not the same. Let's see what's
 the difference.

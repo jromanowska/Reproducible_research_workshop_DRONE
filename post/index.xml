@@ -17,7 +17,7 @@
       <pubDate>Thu, 26 Nov 2020 15:14:14 +0100</pubDate>
       
       <guid>/Reproducible_research_workshop_DRONE/post/2020-11-26-resources/</guid>
-      <description>Collaborative writing  Authorea      advantages disadvantages    WYSIWYG online editor no LaTeX  share project and data with a group only up to 3 private documents at a time with the free account  writing in real time   version history   include code behind figures   ease of inserting citations   publish from within the app      Overleaf</description>
+      <description>Collaborative writing Reproducibility of workflows General In R  Papers talking about reproducible science Books   Collaborative writing  Authorea      advantages disadvantages    WYSIWYG online editor no LaTeX  share project and data with a group only up to 3 private documents at a time with the free account  writing in real time   version history   include code behind figures   ease of inserting citations   publish from within the app      Overleaf</description>
     </item>
     
     <item>
@@ -26,10 +26,8 @@
       <pubDate>Tue, 24 Nov 2020 15:13:14 +0100</pubDate>
       
       <guid>/Reproducible_research_workshop_DRONE/post/2020-11-24-git-and-github/</guid>
-      <description>Git and GitHub are connected, but these are not the same. Let’s see what’s the difference.
-Git software Git software can be downloaded for all OS types. Moreover, there are many software pieces that give you git access, e.g.,
- Sourcetree Github desktop Rstudio   YES, you read correctly: you can use git without closing RStudio
- Git in RStudio  NOTE: To use this feature, you need to have Git installed in your system!</description>
+      <description>Git software Git in RStudio Cloning a repository Adding git tracking to an existing project  Some tutorials When you run into trouble… GitHub Github features     Git and GitHub are connected, but these are not the same. Let’s see what’s the difference.
+Git software Git software can be downloaded for all OS types. Moreover, there are many software pieces that give you git access, e.</description>
     </item>
     
     <item>
@@ -38,10 +36,9 @@ Git software Git software can be downloaded for all OS types. Moreover, there ar
       <pubDate>Tue, 24 Nov 2020 13:13:14 +0100</pubDate>
       
       <guid>/Reproducible_research_workshop_DRONE/post/2020-11-24-version-control/</guid>
-      <description>src: http://phdcomics.com/comics/archive.php?comicid=1323
+      <description>Too many versions? Take control! Directories Naming strategy Version control What to version control? Examples    src: http://phdcomics.com/comics/archive.php?comicid=1323
 Too many versions? We produce very many files, scripts, notes, code, data, outputs, drafts, reports, you-name-it… It’s important to have a clear strategy for how to maintain order in those and how to track changes or versions - either made by us or others.
- Take control! Here are some tips
-Directories In the directories that you know will be useful for others (or even for yourself, after the project is finished) keep and maintain a README file.</description>
+ Take control! Here are some tips</description>
     </item>
     
     <item>
@@ -50,9 +47,9 @@ Directories In the directories that you know will be useful for others (or even 
       <pubDate>Tue, 24 Nov 2020 12:13:14 +0100</pubDate>
       
       <guid>/Reproducible_research_workshop_DRONE/post/2020-11-24-digital-note-taking/</guid>
-      <description>To think, you have to write. If you’re thinking without writing, you only think you’re thinking — Leslie Lamport, Thinking for Programmers Note-taking Important to take notes, both via hand-writing, but also digital notes.
+      <description>Note-taking Organization Links   To think, you have to write. If you’re thinking without writing, you only think you’re thinking — Leslie Lamport, Thinking for Programmers Note-taking Important to take notes, both via hand-writing, but also digital notes.
 Advantages of digital notes:
- searchable ease of planning facilitates writing manuscripts keeping track of trials - mistakes and failures are as important as successes!   Organization Organize your thoughts, links, workflows, etc. Make it easier for others to understand your thoughts, but also for yourself, when looking at that piece of research after e.</description>
+ searchable ease of planning facilitates writing manuscripts keeping track of trials - mistakes and failures are as important as successes!   Organization Organize your thoughts, links, workflows, etc.</description>
     </item>
     
     <item>

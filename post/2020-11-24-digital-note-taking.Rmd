@@ -4,11 +4,16 @@ author: "Julia Romanowska"
 date: 2020-11-24T12:13:14+01:00
 categories: ["notes"]
 tags: ["software", "planning", "keeping-track"]
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
+
+----
 
     To think, you have to write.
     If you’re thinking without writing,

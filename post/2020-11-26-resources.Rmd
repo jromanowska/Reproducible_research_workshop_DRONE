@@ -4,11 +4,16 @@ author: "Julia Romanowska"
 date: 2020-11-26T15:14:14+01:00
 categories: ["tips"]
 tags: ["reproducibility", "rules", "keeping-track", "history"]
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
+
+----
 
 # Collaborative writing
 

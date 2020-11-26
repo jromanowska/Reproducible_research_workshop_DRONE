@@ -4,11 +4,16 @@ author: "Julia Romanowska"
 date: 2020-11-24T13:13:14+01:00
 categories: ["git"]
 tags: ["software", "github", "keeping-track", "history"]
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
+
+----
 
 ![](/Reproducible_research_workshop_DRONE/images/phdcomic_filename_history.png)
 
