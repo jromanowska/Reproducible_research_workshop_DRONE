@@ -65,6 +65,23 @@ There, you can easily:
 
 ----
 
+# Some tutorials
+
+Lot's of help pages
+
+- [At GitHub](https://guides.github.com/)
+- [At Bitbucket](https://www.atlassian.com/git/tutorials)
+
+- [Good blog post](https://sandofsky.com/workflow/git-workflow/) about working with git
+
+- [Cheatsheet](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
+
+## When you run into trouble...
+
+[Git to the rescue!](https://ohshitgit.com/)
+
+----
+
 ## GitHub
 
 [Github](https://github.com/) is a web-service that lets you create, manage,

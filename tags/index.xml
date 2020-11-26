@@ -6,24 +6,15 @@
     <description>Recent content in Tags on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Julia Romanowska.</copyright>
-    <lastBuildDate>Tue, 24 Nov 2020 15:13:14 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2020 15:14:14 +0100</lastBuildDate>
     
 	<atom:link href="/Reproducible_research_workshop_DRONE/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>github</title>
-      <link>/Reproducible_research_workshop_DRONE/tags/github/</link>
-      <pubDate>Tue, 24 Nov 2020 15:13:14 +0100</pubDate>
-      
-      <guid>/Reproducible_research_workshop_DRONE/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>history</title>
       <link>/Reproducible_research_workshop_DRONE/tags/history/</link>
-      <pubDate>Tue, 24 Nov 2020 15:13:14 +0100</pubDate>
+      <pubDate>Thu, 26 Nov 2020 15:14:14 +0100</pubDate>
       
       <guid>/Reproducible_research_workshop_DRONE/tags/history/</guid>
       <description></description>
@@ -32,9 +23,36 @@
     <item>
       <title>keeping-track</title>
       <link>/Reproducible_research_workshop_DRONE/tags/keeping-track/</link>
-      <pubDate>Tue, 24 Nov 2020 15:13:14 +0100</pubDate>
+      <pubDate>Thu, 26 Nov 2020 15:14:14 +0100</pubDate>
       
       <guid>/Reproducible_research_workshop_DRONE/tags/keeping-track/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reproducibility</title>
+      <link>/Reproducible_research_workshop_DRONE/tags/reproducibility/</link>
+      <pubDate>Thu, 26 Nov 2020 15:14:14 +0100</pubDate>
+      
+      <guid>/Reproducible_research_workshop_DRONE/tags/reproducibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rules</title>
+      <link>/Reproducible_research_workshop_DRONE/tags/rules/</link>
+      <pubDate>Thu, 26 Nov 2020 15:14:14 +0100</pubDate>
+      
+      <guid>/Reproducible_research_workshop_DRONE/tags/rules/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>/Reproducible_research_workshop_DRONE/tags/github/</link>
+      <pubDate>Tue, 24 Nov 2020 15:13:14 +0100</pubDate>
+      
+      <guid>/Reproducible_research_workshop_DRONE/tags/github/</guid>
       <description></description>
     </item>
     

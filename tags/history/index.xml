@@ -6,10 +6,19 @@
     <description>Recent content in history on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Julia Romanowska.</copyright>
-    <lastBuildDate>Tue, 24 Nov 2020 15:13:14 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2020 15:14:14 +0100</lastBuildDate>
     
 	<atom:link href="/Reproducible_research_workshop_DRONE/tags/history/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Resources</title>
+      <link>/Reproducible_research_workshop_DRONE/post/2020-11-26-resources/</link>
+      <pubDate>Thu, 26 Nov 2020 15:14:14 +0100</pubDate>
+      
+      <guid>/Reproducible_research_workshop_DRONE/post/2020-11-26-resources/</guid>
+      <description>Collaborative writing  Authorea      advantages disadvantages    WYSIWYG online editor no LaTeX  share project and data with a group only up to 3 private documents at a time with the free account  writing in real time   version history   include code behind figures   ease of inserting citations   publish from within the app      Overleaf</description>
+    </item>
     
     <item>
       <title>Git and github</title>

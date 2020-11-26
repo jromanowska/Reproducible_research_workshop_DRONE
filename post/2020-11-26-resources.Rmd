@@ -1,0 +1,77 @@
+---
+title: "Resources"
+author: "Julia Romanowska"
+date: 2020-11-26T15:14:14+01:00
+categories: ["tips"]
+tags: ["reproducibility", "rules", "keeping-track", "history"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Collaborative writing
+
+- [Authorea](https://www.authorea.com/)
+
+| *advantages*               |  *disadvantages*               |
+|----------------------------|--------------------------------|
+| WYSIWYG online editor      | no LaTeX                       |
+| share project and data with a group | only up to 3 private documents at a time with the free account |
+| writing in real time       |                                |
+| version history            |                                |
+| include code behind figures |                               |
+| ease of inserting citations |                               |
+| publish from within the app |                               |
+
+- [Overleaf](https://www.overleaf.com/)
+
+    - checkout the [example article](https://www.overleaf.com/9741151781qffqwmbwnrwz)
+
+
+| *advantages*               |  *disadvantages*               |
+|----------------------------|--------------------------------|
+| WYSIWYG online editor __and LaTeX__ |                       |
+| share project and data with a group | only up to 5 collaborators with the free account (but one can share through a link without that limit) |
+| writing in real time       |                                |
+| version history *(and import to git!)* |                                |
+| include code behind figures |                               |
+| publish from within the app |                               |
+
+------
+
+# Reproducibility of workflows 
+
+## General
+
+- [Coursera course](https://www.coursera.org/learn/reproducible-research)
+
+
+## In R
+
+- [targets package](https://github.com/wlandau/targets)
+- and it's predecessor, [drake](https://docs.ropensci.org/drake/)
+
+- [Extensive course from Aarhus University](https://r-cubed.rostools.org/)
+
+------
+
+# Papers talking about reproducible science
+
+- Journal that encourages to _reproduce_ others' work: https://rescience.github.io/
+
+- [Peng, R. D. (2009). Reproducible research and Biostatistics. Biostatistics (Oxford, England), 10(3), 405–408.](https://academic.oup.com/biostatistics/article/10/3/405/293660)
+
+- [Munafò, M. R., et al. (2017). A manifesto for reproducible science. Nature Human Behaviour, 1(1), 0021.](https://doi.org/10.1038/s41562-016-0021)
+
+- [Tierney, N. J., & Ram, K. (2020). A Realistic Guide to Making Data Available Alongside Code to Improve Reproducibility. 1–34.](https://arxiv.org/abs/2002.11626) - check also the latest updates on this paper [on github](https://github.com/karthik/ddd)
+
+- [Sandve, G. K., Nekrutenko, A., Taylor, J., & Hovig, E. (2013). Ten Simple Rules for Reproducible Computational Research. PLoS Computational Biology, 9(10), e1003285.](https://doi.org/10.1371/journal.pcbi.1003285)
+
+----
+
+# Books
+
+- ["Reproducible research with R and RStudio" by Christopher Gandrud](https://www.routledge.com/Reproducible-Research-with-R-and-RStudio/Gandrud/p/book/9780367143985)
+
+- ["Rmarkdown cookbook" by Yihui Xie, Christophe Dervieux, Emily Riederer](https://www.amazon.com/Markdown-Cookbook-Chapman-Hall-CRC/) or a [free digital copy](https://bookdown.org/yihui/rmarkdown-cookbook/)
