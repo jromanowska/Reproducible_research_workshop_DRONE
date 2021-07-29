@@ -22,6 +22,15 @@ fit <- lm(dist ~ speed, data = cars)
 fit
 ```
 
+# Including other code
+
+Is easy in Rmarkdown!
+
+```
+I am verbatim text
+```
+
+
 # Including Plots
 
 You can also embed plots. See Figure \@ref(fig:pie) for example:
